@@ -1,0 +1,10 @@
+{
+  "name": "language-commonform",
+  "version": "0.1.0",
+  "description": "CommonForm markup support in Atom.",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "license": "APL 2.0"
+}

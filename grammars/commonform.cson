@@ -1,0 +1,44 @@
+'scopeName': 'source.commonform'
+'name': 'CommonForm'
+'fileTypes': ['commonform']
+
+'patterns': [
+  {
+    begin: '\\['
+    end: '\\]'
+    name: 'variable.commonform'
+  }
+  {
+    begin: '<'
+    end: '>'
+    name: 'entity.commonform'
+  }
+  {
+    begin: '{'
+    end: '}'
+    name: 'keyword.commonform'
+  }
+  {
+    begin: '""'
+    end: '""'
+    name: 'string.commonform'
+  }
+  {
+    match: '\s*#.+'
+    name: 'comment.commonform'
+  }
+  {
+    match: '\\\\\\\\'
+    name: 'markup.heading.marker.commonform'
+  }
+  {
+    match: '(\\\\ )(.*)( \\\\)'
+    captures:
+      '1':
+        'name': 'markup.heading.marker.commonform'
+      '2':
+        'name': 'markup.heading.heading-1.commonform'
+      '3':
+        'name': 'markup.heading.marker.commonform'
+  }
+]
