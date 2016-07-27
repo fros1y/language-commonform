@@ -1,6 +1,6 @@
 {
   "name": "language-commonform",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Martin Galese <martin@galese.net>",
   "description": "CommonForm markup support in Atom.",
   "engines": {
