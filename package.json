@@ -1,10 +1,12 @@
 {
   "name": "language-commonform",
   "version": "0.1.0",
+  "author": "Martin Galese <martin@galese.net>",
   "description": "CommonForm markup support in Atom.",
   "engines": {
     "atom": "*"
   },
   "dependencies": {},
-  "license": "APL 2.0"
+  "license": "Apache-2.0",
+  "repository": "fros1y/language-commonform"
 }
